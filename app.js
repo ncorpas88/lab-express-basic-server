@@ -42,7 +42,7 @@ app.get("/api/articles", (req, res) => {
 })
 
 app.use((req, res) => {
-    res.status(404).sendFile(__dirname + "views/not-found.html")
+    res.status(404).sendFile(__dirname + "/views/not-found.html")
 })
 
 
